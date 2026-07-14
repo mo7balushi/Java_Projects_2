@@ -1,6 +1,5 @@
 package Java_Projects_2;
-
-public class NumberReversal{
+public class  NumberReversal{
     public static void main(String[] args) {
         // Declare number variable and sit it.
         int number=12345;
@@ -13,15 +12,10 @@ public class NumberReversal{
             digit=number%10;
             reversedNumber=reversedNumber*10+digit;
             number=number/10;
-
         }
-        // Display the original number
+        // Display the original number.
         System.out.println("Original Number : 12345 ");
-        //  Display the reverse number
+        //  Display the reverse number.
         System.out.println("Reversed Number: "+reversedNumber);
-
-
-
-
     }
 }
