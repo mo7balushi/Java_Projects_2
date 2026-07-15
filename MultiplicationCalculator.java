@@ -13,7 +13,7 @@ public class MultiplicationCalculator {
             result= i*result;
 
         }
-        // display result 
+        // display result
         System.out.println("Multiplication Result: "+result);
 
 
